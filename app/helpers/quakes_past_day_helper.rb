@@ -1,0 +1,2 @@
+module QuakesPastDayHelper
+end
