@@ -521,3 +521,287 @@ Rendering template within layouts/application
 Rendering quakes_past_day/show
 Rendered quakes_past_day/_sidebar (0.0ms)
 Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+eschaton: loading slice 'eschaton_kernel'
+eschaton: loading slice 'google_maps'
+eschaton: loading slice 'jquery'
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:07:16) [GET]
+
+ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:07:19) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:07:22) [GET]
+
+ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:07:54) [GET]
+
+ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+eschaton: loading slice 'eschaton_kernel'
+eschaton: loading slice 'google_maps'
+eschaton: loading slice 'jquery'
+eschaton: loading slice 'eschaton_kernel'
+eschaton: loading slice 'google_maps'
+eschaton: loading slice 'jquery'
+eschaton: loading slice 'eschaton_kernel'
+eschaton: loading slice 'google_maps'
+eschaton: loading slice 'jquery'
+
+
+Processing QuakesPastHourController#index (for 127.0.0.1 at 2009-12-18 13:13:33) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/index
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:38) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (16.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:40) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:41) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:42) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:43) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:44) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:44) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:45) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:46) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:47) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:48) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:51) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:52) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:53) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:13:54) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:13:59) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:14:00) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:14:00) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:14:01) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:14:05) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:14:07) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:14:08) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:14:09) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:14:10) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:14:10) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:14:28) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 13:14:29) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 13:14:31) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+eschaton: loading slice 'eschaton_kernel'
+eschaton: loading slice 'google_maps'
+eschaton: loading slice 'jquery'
+
+
+Processing QuakesPastHourController#index (for 127.0.0.1 at 2009-12-18 14:08:11) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/index
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 14:08:15) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 14:08:16) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 156ms (View: 140, DB: 0) | 200 OK [http://localhost/quakes_past_hour]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 14:08:18) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 14:08:19) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_hour/show
+Rendered quakes_past_hour/_sidebar (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/quakes_past_hour]

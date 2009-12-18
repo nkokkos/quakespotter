@@ -1,11 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
   
-#  map.resources :quakes_past_hour, :controller => 'quakes_past_hour', :action => 'index'
-#  map.resources :quakes_past_day, :controller => 'quakes_past_day', :action => 'index'
+  map.resource :quakes_past_hour,  :controller => 'quakes_past_hour', :action => 'show'
+  map.resource :quakes_past_day, :controller => 'quakes_past_day', :action => 'show'
 
-  map.resource :quakes_past_hour,  :controller => 'quakes_past_hour', :action => 'index'
-  map.resource :quakes_past_day, :controller => 'quakes_past_day', :action => 'index'
-
+  map.root :controller => "quakes_past_hour" 
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

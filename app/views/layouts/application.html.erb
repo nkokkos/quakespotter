@@ -2,20 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Web App</title>
+	<title>Quake Spotter Web App</title>
 	<%= stylesheet_link_tag "web_app_theme", "web_app_theme_override", "themes/drastic-dark/style", :cache => true %>
 </head>
 <body>
   <div id="container">
     <div id="header">
-      <h1><a href="/">Web App</a></h1>
+      <h1><a href="/">Quake Spotter Web App</a></h1>
       <div id="user-navigation">
         <div class="clear"></div>
       </div>      
       <div id="main-navigation">
-        <ul> 
-        <li class="<%= controller.controller_path == 'quakes_past_day' ? 'active' : '' %>"><a href="<%= quakes_past_day_path %>">QuakesPastDay</a></li>
-        <li class="<%= controller.controller_path == 'quakes_past_hour' ? 'active' : '' %>"><a href="<%= quakes_past_hour_path %>">QuakesPastHour</a></li>
+        <ul>
+        <li class="<%= controller.controller_path == 'quakes_past_hour' ? 'active' : '' %>"><a href="<%= quakes_past_hour_path %>">Past Hour Quakes</a></li>        
+        <li class="<%= controller.controller_path == 'quakes_past_day' ? 'active' : '' %>"><a href="<%= quakes_past_day_path %>">Past Day Quakes</a></li>
        </ul>
         <div class="clear"></div>
       </div>
