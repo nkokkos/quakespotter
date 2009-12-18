@@ -1,3 +1,4 @@
-<h1>QuakesPastHour#show</h1>
-<p>Find me in app/views/quakes_past_hour/show.html.erb</p>
+<%= include_google_javascript %>
+<%= init_map %>
+<%= google_map :width => 680, :height => 500 %>
 <% content_for :sidebar, render(:partial => 'sidebar') -%>

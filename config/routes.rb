@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :quakes_past_hour,  :controller => 'quakes_past_hour', :action => 'show'
   map.resource :quakes_past_day, :controller => 'quakes_past_day', :action => 'show'
 
-  map.root :controller => "quakes_past_hour" 
+  map.root :controller => "quakes_past_hour", :action => 'show' 
   
   # The priority is based upon order of creation: first created -> highest priority.
 
