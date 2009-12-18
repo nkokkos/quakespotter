@@ -469,3 +469,55 @@ ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view 
   
 
 Rendering rescues/layout (internal_server_error)
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 12:56:23) [GET]
+
+ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 12:56:28) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 1687ms (View: 1687, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 12:56:48) [GET]
+
+ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 12:56:54) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastHourController#show (for 127.0.0.1 at 2009-12-18 12:56:56) [GET]
+
+ActionView::MissingTemplate (Missing template quakes_past_hour/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 12:57:22) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
+
+
+Processing QuakesPastDayController#show (for 127.0.0.1 at 2009-12-18 12:57:28) [GET]
+Rendering template within layouts/application
+Rendering quakes_past_day/show
+Rendered quakes_past_day/_sidebar (0.0ms)
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/quakes_past_day]
