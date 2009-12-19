@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   
-  map.resource :quakes_past_hour,  :controller => 'quakes_past_hour', :action => 'show'
-  map.resource :quakes_past_day, :controller => 'quakes_past_day', :action => 'show'
+  map.resource :quakes_past_hour,  :controller => 'quakes_past_hour'
+  map.resource :quakes_past_day, :controller => 'quakes_past_day'
 
   map.root :controller => "quakes_past_hour", :action => 'show' 
   
