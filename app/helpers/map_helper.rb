@@ -3,10 +3,13 @@ require 'fastercsv'
 module MapHelper
   
   def init_map
-    @a= []
+    @a=  []
+    @b = []
+    
     
     FasterCSV.foreach("#{RAILS_ROOT}/tmp/eqs1hour-M1.txt", :headers => true, :col_sep => ',') do |row|
-      @a << [ row[5], row[6] ]
+      @b << [ row[4], row[5] ]
+      @a << @b
     end
   
     run_map_script do
@@ -20,9 +23,9 @@ module MapHelper
  
  #    @a.each { |x| map.add_marker :location => x }
      
-     hops = [ [38.7847,-122.7702], [34.0206,-117.2071] ]
+ #    hops = [ [38.7847,-122.7702], [34.0206,-117.2071] ]
      
-      hops.each do |location|
+      @a.each do |location|
        map.add_marker :location =>location
      end
 
