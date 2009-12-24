@@ -1,4 +1,6 @@
 <%= include_google_javascript %>
 <%= init_map %>
 <%= google_map :width => 800, :height => 500, :style => 'height:100%;width:100%' %>
+<p>
+<%= @a %>
 <% content_for :sidebar, render(:partial => 'sidebar') -%>

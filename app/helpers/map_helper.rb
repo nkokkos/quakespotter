@@ -7,8 +7,8 @@ module MapHelper
     @b = []
     
     
-    FasterCSV.foreach("#{RAILS_ROOT}/tmp/eqs1hour-M1.txt", :headers => true, :col_sep => ',') do |row|
-      @b << [ row[4], row[5] ]
+    FasterCSV.foreach("#{RAILS_ROOT}/tmp/eqs1day-M1.txt", :headers => true, :col_sep => ',') do |row|
+      @b = [ row[4], row[5] ]
       @a << @b
     end
   
@@ -23,7 +23,7 @@ module MapHelper
  
  #    @a.each { |x| map.add_marker :location => x }
      
- #    hops = [ [38.7847,-122.7702], [34.0206,-117.2071] ]
+#      hops = [ [38.7847,-122.7702], [34.0206,-117.2071] ]
      
       @a.each do |location|
        map.add_marker :location =>location
