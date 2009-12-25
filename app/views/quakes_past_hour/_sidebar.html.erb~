@@ -2,14 +2,14 @@
   <h3>Simple Block</h3>
   <div class="content">
     <br>
-        <%= image_tag "red.png",  :alt => 'red' %> = Greater than 6
+        <%= image_tag "red.png",  :alt => 'red' %> >= 6
     <br>
-  	<%= image_tag "blue.png", :alt => 'blue' %> >=5...adf test
+  	<%= image_tag "blue.png", :alt => 'blue' %> >=5
     <br>
   	<%= image_tag "green.png",  :alt => 'red' %> >= test 12
     <br>  
-  	<%= image_tag "yellow.png", :alt => 'red' %> asdfasdfjasdf;lakd
-   </div>
+  	<%= image_tag "yellow.png", :alt => 'red' %>
+  </div>
 </div>
 <div class="block">
   <h3>Links</h3>
