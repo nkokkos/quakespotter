@@ -1,7 +1,2 @@
 Src,Eqid,Version,Datetime,Lat,Lon,Magnitude,Depth,NST,Region
-ci,14564764,1,"Monday, December 28, 2009 08:19:57 UTC",33.4783,-116.7805,1.9,4.50,80,"Southern California"
-nc,71327235,0,"Monday, December 28, 2009 08:15:29 UTC",36.5758,-121.0958,1.2,5.70, 8,"Central California"
-ci,14564756,1,"Monday, December 28, 2009 08:10:56 UTC",34.2250,-117.5991,1.4,5.00,23,"Southern California"
-us,2009qtal,6,"Monday, December 28, 2009 08:05:43 UTC",47.7404,153.0315,5.1,120.50,104,"Kuril Islands"
-ci,14564748,1,"Monday, December 28, 2009 07:58:06 UTC",32.9598,-116.1155,1.4,0.00,13,"Southern California"
-ak,10026229,1,"Monday, December 28, 2009 07:43:40 UTC",64.6738,-149.3779,1.3,18.90,07,"Central Alaska"
+ci,14564772,1,"Monday, December 28, 2009 08:45:42 UTC",31.9058,-115.5798,2.9,2.90,11,"Baja California, Mexico"

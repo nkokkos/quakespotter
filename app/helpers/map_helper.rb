@@ -16,9 +16,9 @@ module MapHelper
     end
   
     run_map_script do # run_map_script is a method defined inside eschaton google map plugin
-      map = Google::Map.new(:controls => [:small_map, :map_type],
+      map = Google::Map.new(:controls => [:large_map, :map_type],
                         #    :center => {:latitude => -33.947, :longitude => 18.462},
-                            :zoom => 2)
+                            :zoom => 1, :type => :satellite)
     #     map.click do |script, location|
     #       map.open_info_window(:location => location, :html => 'hello cape town!')
     #     end
@@ -50,9 +50,9 @@ module MapHelper
     end
   
     run_map_script do # run_map_script is a method defined inside eschaton google map plugin
-      map = Google::Map.new(:controls => [:small_map, :map_type],
+      map = Google::Map.new(:controls => [:large_map, :map_type],
                         #    :center => {:latitude => -33.947, :longitude => 18.462},
-                            :zoom => 2)
+                            :zoom => 1, :type => :satellite)
     #     map.click do |script, location|
     #       map.open_info_window(:location => location, :html => 'hello cape town!')
     #     end
