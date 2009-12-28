@@ -1,1 +1,8 @@
-A Ruby on Rails application to pin past hour's + past day's earthquakes on Google Maps. Currently, nothing much to see
+A very simple Ruby on Rails application to pin past hour's + past day's earthquakes on Google Maps. 
+
+Download the application and then do:
+
+rake quakes:update & ruby script/server.
+
+I plan to add more features later on
+
